@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #1515be;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form {
+  background: #2c2c3e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ticket {
+  background: #333;
+  border: 1px solid #ff5c5c;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.ticket img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.ticket h3,
+.ticket p {
+  margin: 5px 0;
+}

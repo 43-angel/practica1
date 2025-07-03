@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+Generador de tickets para conferencias de codificación
+</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+  <div class="container">
+    <h1>Tu viaje a<span class="highlight">Conferencia de codificación 2025</span> ¡Empieza aquí!</h1>
+    <p>Asegure su lugar en la conferencia de codificación más grande del próximo año.</p>
+
+
+
+    <form class="form" onsubmit="generateTicket(event)">
+      <label>Subir Avatar</label>
+      <input type="file" id="avatar" accept="image/*" required />
+      <input type="text" id="fullname" placeholder="Nombre Completo" required />
+      <input type="email" id="email" placeholder="Correo Electronico" required />
+      <input type="text" id="github" placeholder="Nombre de usuario de GitHub" required />
+      <button type="submit">Generar mi boleto</button>
+    </form>
+
+
+
+    <div id="ticketOutput"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+<!--
+Angel Gerardo Pech Caamal
+Julio Enrique Noh Uch
+-->
+
+
